@@ -2,6 +2,10 @@
 from django.contrib.gis.db import models
 
 class ZipCode(models.Model):
+	""" This actually stores a Zip Code Tabulation Area as defined by the US
+	Census Bureau. Note that this is not entirely the same as the Zip Codes
+	that the USPS uses. """
+
 	zcta5ce10 = models.CharField(max_length=5)
 	geoid10 = models.CharField(max_length=5)
 	classfp10 = models.CharField(max_length=2)
