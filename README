@@ -1,0 +1,7 @@
+This is a simple reverse geocoder. 
+
+This uses GeoDjango and PostGIS and is designed to store data from the U.S.
+Census Bureau's TIGER/Line Shapefiles. 
+
+The simple functionality is to provide a lat, long through a URL and get some
+information about that point back (county name, zip code tabulation area etc). 
