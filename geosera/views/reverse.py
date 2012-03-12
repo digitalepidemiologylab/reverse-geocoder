@@ -7,6 +7,8 @@ from django.contrib.gis.geos import Point
 from geosera.models.county import CountyBoundary
 from geosera.models.place import Place
 from geosera.models.zipcode import ZipCode
+from geosera.models.state import State
+from geosera.models.metro import MetropolitanStatisticalArea
 
 def reverse(request, lat, lng):
 	response_data = {}
@@ -34,5 +36,19 @@ def reverse(request, lat, lng):
 		response_data['zcta'] = zipcodes[0].zcta5ce10
 	else:
 		response_data['zcta'] = None
+
+	states = State.objects.filter(geom__contains=p)
+
+	if len(states) > 0:
+		response_data['state'] = states[0].stusps10
+	else:
+		response_data['state'] = None
+
+	metros = MetropolitanStatisticalArea.objects.filter(geom__contains=p)
+
+	if len(metros) > 0:
+		response_data['metro'] = metros[0].name
+	else:
+		response_data['metro'] = None
 
 	return HttpResponse(simplejson.dumps(response_data), mimetype='application/json')
