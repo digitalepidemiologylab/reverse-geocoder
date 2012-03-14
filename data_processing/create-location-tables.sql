@@ -1,4 +1,6 @@
-DROP TABLE IF EXISTS `counties`;
+ALTER TABLE tweets DROP FOREIGN KEY `tweets_ibfk_1`;
+ALTER TABLE tweets DROP COLUMN county_id;
+DROP TABLE IF EXISTS counties;
 DROP TABLE IF EXISTS zctas;
 DROP TABLE IF EXISTS states;
 
@@ -12,8 +14,6 @@ CREATE TABLE states (
 
 CREATE INDEX state_two ON states (two_letter_code);
 
-ALTER TABLE tweets DROP FOREIGN KEY `tweets_ibfk_1`;
-ALTER TABLE tweets DROP COLUMN county_id;
 
 CREATE TABLE counties (
 	name text NOT NULL,
