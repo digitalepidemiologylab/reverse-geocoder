@@ -7,9 +7,9 @@ GEO_DATA_SINK = ''
 
 #Geocoder flags. We keep track of how a tweet was geocoded. These are the
 #various statuses that are applicable. 
-GEOCODER_FLAG = {
+GEOCODER_FLAGS = {
 	#Geocoding has not been attempted for this tweet
-	'GEOCODER_NOT_ATTEMPED':'N'
+	'GEOCODER_NOT_ATTEMPED':'N',
 
 	#This tweet was reverse geocoded by Geosera
 	'GEOSERA':'G',
@@ -24,8 +24,8 @@ GEOCODER_FLAG = {
 	'GEOCODER_YAHOO_FAILED':'YF'
 }
 
-DATABASES{
-	'DEFAULT':{
+DATABASES = {
+	'default':{
 		'HOST':'',
 		'USER':'',
 		'PASSWORD':'',
