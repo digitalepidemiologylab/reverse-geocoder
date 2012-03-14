@@ -16,4 +16,4 @@ ALTER TABLE tweets ADD FOREIGN KEY (state_fips) REFERENCES states (fips_code);
 ALTER TABLE tweets ADD COLUMN zcta int(5);
 ALTER TABLE tweets ADD FOREIGN KEY (zcta) REFERENCES zctas (zipcode);
 
-ALTER TABLE tweets ADD COLUMN geocoded BOOLEAN NOT NULL DEFAULT FALSE;
+alter table tweets add column geocoder_flag varchar(2) not null default 'N';
