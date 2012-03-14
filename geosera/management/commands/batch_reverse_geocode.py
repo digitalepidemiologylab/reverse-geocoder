@@ -16,12 +16,17 @@ class Command(BaseCommand):
 	""" Take a file with tweet_ids, longitude and latitude on the command line, and 
 	reverse geocode the locations. Output is sent out using the logging system. """
 
-	args = '<points_file_name>'
-	help = 'Batch reverse geocodes'
+	args = '<points_file_name [start_index]>'
+	help = 'Batch reverse geocodes. Start index in the tweet number to start at.'
 
 	def handle(self, *args, **options):
 		point_file_name = args[0]
 		point_file_reader = csv.reader(open(point_file_name, 'rb'), delimiter='\t')
+
+		if len(args) > 1:
+			start_index = args[1]
+		else:
+			start_index = None
 
 		#setup the data logger
 		data_logger = logging.getLogger('DataLogger')
@@ -39,53 +44,60 @@ class Command(BaseCommand):
 		logging_handler.setFormatter(logging.Formatter('%(asctime)s%(msecs)d|%(message)s', datefmt='%Y%m%d%H%M%S'))
 		logger.addHandler(logging_handler)
 
+		if start_index:
+			start = False
+		else:
+			start = True
 		for row in point_file_reader:
 			tweet_id = row[0]
-			longitude = row[1]
-			latitude = row[2]
+			if tweet_id == start_index:
+				start = True
+			if start:
+				longitude = row[1]
+				latitude = row[2]
 
-			p = Point(float(longitude), float(latitude))
-			counties = CountyBoundary.objects.filter(geom__contains=p)
+				p = Point(float(longitude), float(latitude))
+				counties = CountyBoundary.objects.filter(geom__contains=p)
 
-			response_data = {}
-			response_data['tweet_id'] = tweet_id
+				response_data = {}
+				response_data['tweet_id'] = tweet_id
 
-			if len(counties) > 0:
-				response_data['county'] = counties[0].name10
-				response_data['county_fips'] = counties[0].geoid10
-			else:
-				response_data['county'] = None
+				if len(counties) > 0:
+					response_data['county'] = counties[0].name10
+					response_data['county_fips'] = counties[0].geoid10
+				else:
+					response_data['county'] = None
 
-			places = Place.objects.filter(geom__contains=p)
+				places = Place.objects.filter(geom__contains=p)
 
-			if len(places) > 0:
-				response_data['place'] = places[0].namelsad10
-				response_data['place_fips'] = places[0].geoid10
-			else:
-				response_data['place'] = None
+				if len(places) > 0:
+					response_data['place'] = places[0].namelsad10
+					response_data['place_fips'] = places[0].geoid10
+				else:
+					response_data['place'] = None
 
-			zipcodes = ZipCode.objects.filter(geom__contains=p)
+				zipcodes = ZipCode.objects.filter(geom__contains=p)
 
-			if len(zipcodes) > 0:
-				response_data['zcta'] = zipcodes[0].zcta5ce10
-			else:
-				response_data['zcta'] = None
+				if len(zipcodes) > 0:
+					response_data['zcta'] = zipcodes[0].zcta5ce10
+				else:
+					response_data['zcta'] = None
 
-			states = State.objects.filter(geom__contains=p)
+				states = State.objects.filter(geom__contains=p)
 
-			if len(states) > 0:
-				response_data['state'] = states[0].stusps10
-				response_data['state_fips'] = states[0].geoid10
-			else:
-				response_data['state'] = None
+				if len(states) > 0:
+					response_data['state'] = states[0].stusps10
+					response_data['state_fips'] = states[0].geoid10
+				else:
+					response_data['state'] = None
 
-			metros = MetropolitanStatisticalArea.objects.filter(geom__contains=p)
+				metros = MetropolitanStatisticalArea.objects.filter(geom__contains=p)
 
-			if len(metros) > 0:
-				response_data['metro'] = metros[0].name
-				response_data['metro_code'] = metros[0].cbsafp
-			else:
-				response_data['metro'] = None
+				if len(metros) > 0:
+					response_data['metro'] = metros[0].name
+					response_data['metro_code'] = metros[0].cbsafp
+				else:
+					response_data['metro'] = None
 
-			data_logger.info(simplejson.dumps(response_data))
-			logger.info(tweet_id)
+				data_logger.info(simplejson.dumps(response_data))
+				logger.info(tweet_id)
