@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 import MySQLdb
-import simplejson
+import json as simplejson
 import os
 from mkondo import dataops
+from mkondo import shunter
 import settings
 import logging
 import logging.handlers
@@ -63,6 +64,7 @@ class TweetsLoader():
 			sql_prefix += m
 
 		sql = sql_prefix + " WHERE tweet_id = %s" % data['tweet_id']
+		print sql
 		self.run_sql_update(sql)
 		print data['tweet_id']
 
@@ -91,7 +93,7 @@ if __name__ == '__main__':
 				data = simplejson.loads(line.split('|')[1])
 				updater.process_geocoder_data(data)
 
-				#move each file as it's done
-				directory_names = mkondo.extra_directory_names([filepath])
-				mkondo.create_directories(settings.GEO_DATA_SOURCE, directory_names)
-				mkondo.move_files(settings.GEO_DATA_SOURCE, [filename])
+			#move each file as it's done
+			directory_names = shunter.extract_directory_names([filepath])
+			shunter.create_directories(settings.GEO_DATA_SOURCE, directory_names)
+			shunter.move_files(settings.GEO_DATA_SOURCE, [filename])
