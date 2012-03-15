@@ -32,11 +32,32 @@ class TweetsLoader():
 		print sql
 
 	def was_geocoded(self,data):
-		""" Return true if at least one of the levels has been reverse geocoded."""
-		return data['metro'] and data['county'] and data['state'] and data['place'] and data['zcta']
+		""" Return true if any of the levels have been geocoded """
+		return data['metro'] or data['county'] or data['state'] or data['place'] or data['zcta']
 
 	def build_update_sql(self, data):
 		sql_prefix = "UPDATE tweets SET geocoder_flag = '%s' " % self.flags['GEOSERA']
+	
+		if 'county_fips' in data and data['county_fips']:
+			c = " ,county_fips=%s " % data['county_fips']
+			sql_prefix += c
+
+		if 'state_fips' in data and data['state_fips']:
+			s = ", state_fips=%s" % data['state_fips']
+			sql_prefix += s
+
+		if 'place_fips' in data  and data['place_fips']:
+			p = ", place_fips=%s" % data['place_fips']
+			sql_prefix += p
+
+		if 'zcta' in data and data['zcta']:
+			z = ", zcta=%s" % data['zcta']
+			sql_prefix += z
+
+		if 'metro_code' in data and data['metro_code']:
+			m = ", metro_code=%s" % data['metro_code']
+			sql_prefix += m
+
 		sql += "WHERE tweet_id = %s" % data['tweet_id']
 
 	def process_geocoder_data(self, data):
