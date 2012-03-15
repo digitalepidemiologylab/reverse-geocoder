@@ -90,3 +90,8 @@ if __name__ == '__main__':
 			for line in data_file:
 				data = simplejson.loads(line.split('|')[1])
 				updater.process_geocoder_data(data)
+
+				#move each file as it's done
+				directory_names = mkondo.extra_directory_names([filepath])
+				mkondo.create_directories(settings.GEO_DATA_SOURCE, directory_names)
+				mkondo.move_files(settings.GEO_DATA_SOURCE, [filename])
