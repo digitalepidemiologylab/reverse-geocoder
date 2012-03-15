@@ -1,0 +1,953 @@
+38540	Pocatello, ID
+12740	Barre, VT
+28260	Kearney, NE
+24460	Great Bend, KS
+23820	Gardnerville Ranchos, NV
+21980	Fallon, NV
+39900	Reno-Sparks, NV
+43420	Sierra Vista-Douglas, AZ
+22280	Fernley, NV
+21220	Elko, NV
+17620	Coamo, PR
+36180	Ocean Pines, MD
+40340	Rochester, MN
+10660	Albert Lea, MN
+10820	Alexandria, MN
+47420	Wahpeton, ND-MN
+47580	Warner Robins, GA
+21860	Fairmont, MN
+40780	Russellville, AR
+19860	Dickinson, ND
+48820	Willmar, MN
+15660	Calhoun, GA
+27700	Jesup, GA
+22060	Faribault-Northfield, MN
+11060	Altus, OK
+36420	Oklahoma City, OK
+12780	Bartlesville, OK
+27020	Iron Mountain, MI-WI
+14540	Bowling Green, KY
+38620	Ponca City, OK
+49260	Woodward, OK
+46140	Tulsa, OK
+24780	Greenville, NC
+13020	Bay City, MI
+49180	Winston-Salem, NC
+21020	Elizabeth City, NC
+45900	Traverse City, MI
+22180	Fayetteville, NC
+40580	Rocky Mount, NC
+43140	Shelby, NC
+20380	Dunn, NC
+45640	Thomasville-Lexington, NC
+11260	Anchorage, AK
+28980	Kodiak, AK
+28620	Kill Devil Hills, NC
+33980	Morehead City, NC
+14700	Branson, MO
+16420	Central City, KY
+49740	Yuma, AZ
+40260	Roanoke Rapids, NC
+20500	Durham-Chapel Hill, NC
+24660	Greensboro-High Point, NC
+44380	Statesville-Mooresville, NC
+41820	Sanford, NC
+46300	Twin Falls, ID
+26820	Idaho Falls, ID
+34140	Moscow, ID
+37660	Parsons, KS
+16180	Carson City, NV
+46580	Utuado, PR
+22380	Flagstaff, AZ
+37740	Payson, AZ
+38060	Phoenix-Mesa-Scottsdale, AZ
+38340	Pittsfield, MA
+12700	Barnstable Town, MA
+14580	Bozeman, MT
+22340	Fitzgerald, GA
+24500	Great Falls, MT
+33300	Milledgeville, GA
+12060	Atlanta-Sandy Springs-Marietta, GA
+25660	Havre, MT
+49340	Worcester, MA
+24220	Grand Forks, ND-MN
+43940	Spearfish, SD
+49460	Yankton, SD
+10760	Alexander City, AL
+43620	Sioux Falls, SD
+15100	Brookings, SD
+13900	Bismarck, ND
+21060	Elizabethtown, KY
+32460	Mayfield, KY
+11540	Appleton, WI
+10980	Alpena, MI
+34780	Muskogee, OK
+32540	McAlester, OK
+31820	Manitowoc, WI
+12980	Battle Creek, MI
+34340	Mount Airy, NC
+40460	Rockingham, NC
+15820	Campbellsville, KY
+21820	Fairbanks, AK
+27340	Jacksonville, NC
+47260	Virginia Beach-Norfolk-Newport News, VA-NC
+31740	Manhattan, KS
+43700	Somerset, KY
+30900	Logansport, IN
+31940	Marinette, WI-MI
+25780	Henderson, NC
+32300	Martinsville, VA
+19260	Danville, VA
+49020	Winchester, VA-WV
+31340	Lynchburg, VA
+16820	Charlottesville, VA
+14380	Boone, NC
+44420	Staunton-Waynesboro, VA
+36620	Ontario, OR-ID
+17660	Coeur d'Alene, ID
+27220	Jackson, WY-ID
+13940	Blackfoot, ID
+14860	Bridgeport-Stamford-Norwalk, CT
+28300	Keene, NH
+49060	Winfield, KS
+41140	St. Joseph, MO-KS
+18220	Connersville, IN
+23060	Fort Wayne, IN
+38860	Portland-South Portland-Biddeford, ME
+23140	Frankfort, IN
+42980	Seymour, IN
+44140	Springfield, MA
+29140	Lafayette, IN
+26900	Indianapolis-Carmel, IN
+35700	Nogales, AZ
+25740	Helena, MT
+15580	Butte-Silver Bow, MT
+35220	New Castle, IN
+15260	Brunswick, GA
+20140	Dublin, GA
+42340	Savannah, GA
+25980	Hinesville-Fort Stewart, GA
+19140	Dalton, GA
+13740	Billings, MT
+17140	Cincinnati-Middletown, OH-KY-IN
+18820	Crawfordsville, IN
+31420	Macon, GA
+47080	Vidalia, GA
+44900	Summerville, GA
+24700	Greensburg, IN
+16860	Chattanooga, TN-GA
+46660	Valdosta, GA
+12260	Augusta-Richmond County, GA-SC
+10500	Albany, GA
+17980	Columbus, GA-AL
+45700	Tifton, GA
+20060	Douglas, GA
+18380	Cordele, GA
+19300	Daphne-Fairhope-Foley, AL
+25460	Harrison, AR
+21460	Enterprise-Ozark, AL
+13820	Birmingham-Hoover, AL
+42460	Scottsboro, AL
+22520	Florence-Muscle Shoals, AL
+33860	Montgomery, AL
+33540	Missoula, MT
+34260	Mountain Home, AR
+46260	Tuskegee, AL
+46740	Valley, AL
+22980	Fort Valley, GA
+46220	Tuscaloosa, AL
+48180	Waycross, GA
+11500	Anniston-Oxford, AL
+21640	Eufaula, AL-GA
+15780	Camden, AR
+33500	Minot, ND
+19460	Decatur, AL
+20980	El Dorado, AR
+49380	Worthington, MN
+29300	LaGrange, GA
+33340	Milwaukee-Waukesha-West Allis, WI
+31540	Madison, WI
+13660	Big Rapids, MI
+44620	Stevens Point, WI
+10940	Alma, MI
+10300	Adrian, MI
+29620	Lansing-East Lansing, MI
+27500	Janesville, WI
+21540	Escanaba, MI
+34740	Muskegon-Norton Shores, MI
+35100	New Bern, NC
+32700	McPherson, KS
+39580	Raleigh-Cary, NC
+13980	Blacksburg-Christiansburg-Radford, VA
+25500	Harrisonburg, VA
+24140	Goldsboro, NC
+19020	Culpeper, VA
+28700	Kingsport-Bristol-Bristol, TN-VA
+40220	Roanoke, VA
+29900	Laurinburg, NC
+40060	Richmond, VA
+43060	Shawnee, OK
+23780	Garden City, KS
+30420	Lexington, NE
+25580	Hastings, NE
+43580	Sioux City, IA-NE-SD
+30860	Logan, UT-ID
+34300	Mountain Home, ID
+27980	Kahului-Wailuku, HI
+25540	Hartford-West Hartford-East Hartford, CT
+26740	Hutchinson, KS
+30580	Liberal, KS
+41460	Salina, KS
+11300	Anderson, IN
+12580	Baltimore-Towson, MD
+30500	Lexington Park, MD
+21780	Evansville, IN-KY
+31140	Louisville-Jefferson County, KY-IN
+11420	Angola, IN
+43780	South Bend-Mishawaka, IN-MI
+12300	Augusta-Waterville, ME
+42500	Scottsburg, IN
+47700	Warsaw, IN
+27860	Jonesboro, AR
+30780	Little Rock-North Little Rock-Conway, AR
+22020	Fargo, ND-MN
+45740	Toccoa, GA
+26260	Hope, AR
+29100	La Crosse, WI-MN
+11660	Arkadelphia, AR
+45580	Thomaston, GA
+49100	Winona, MN
+25760	Helena-West Helena, AR
+36940	Owatonna, MN
+42820	Selma, AL
+22840	Fort Payne, AL
+31580	Madisonville, KY
+20460	Durant, OK
+45140	Tahlequah, OK
+27420	Jamestown, ND
+38420	Platteville, WI
+20740	Eau Claire, WI
+21420	Enid, OK
+33060	Miami, OK
+12180	Auburn, NY
+10580	Albany-Schenectady-Troy, NY
+27460	Jamestown-Dunkirk-Fredonia, NY
+35620	New York-Northern New Jersey-Long Island, NY-NJ-PA
+26340	Houghton, MI
+20780	Edwards, CO
+44540	Sterling, CO
+39500	Quincy, IL-MO
+27940	Juneau, AK
+19740	Denver-Aurora-Broomfield, CO
+22820	Fort Morgan, CO
+15620	Cadillac, MI
+20340	Duncan, OK
+43100	Sheboygan, WI
+20420	Durango, CO
+34380	Mount Pleasant, MI
+43260	Sheridan, WY
+32270	Marshfield-Wisconsin Rapids, WI
+38260	Pittsburg, KS
+13620	Berlin, NH-VT
+25900	Hilo, HI
+21380	Emporia, KS
+36540	Omaha-Council Bluffs, NE-IA
+45820	Topeka, KS
+39940	Rexburg, ID
+13100	Beatrice, NE
+24260	Grand Island, NE
+14020	Bloomington, IN
+44340	Statesboro, GA
+12020	Athens-Clarke County, GA
+28060	Kalispell, MT
+32140	Marshall, MN
+22900	Fort Smith, AR-OK
+16340	Cedartown, GA
+39860	Red Wing, MN
+45620	Thomasville, GA
+33180	Middlesborough, KY
+34660	Murray, KY
+34460	Mount Sterling, KY
+45500	Texarkana, TX-Texarkana, AR
+37140	Paducah, KY-IL
+19220	Danville, KY
+23180	Frankfort, KY
+22620	Forrest City, AR
+26580	Huntington-Ashland, WV-KY-OH
+30460	Lexington-Fayette, KY
+24340	Grand Rapids-Wyoming, MI
+17740	Coldwater, MI
+42300	Sault Ste. Marie, MI
+25100	Guymon, OK
+33780	Monroe, MI
+33020	Mexico, MO
+28860	Kirksville, MO
+24100	Gloversville, NY
+21300	Elmira, NY
+38460	Plattsburgh, NY
+39100	Poughkeepsie-Newburgh-Middletown, NY
+27620	Jefferson City, MO
+11460	Ann Arbor, MI
+40980	Saginaw-Saginaw Township North, MI
+44780	Sturgis, MI
+26100	Holland-Grand Haven, MI
+32100	Marquette, MI
+28140	Kansas City, MO-KS
+19980	Dodge City, KS
+15540	Burlington-South Burlington, VT
+14260	Boise City-Nampa, ID
+29940	Lawrence, KS
+26180	Honolulu, HI
+30700	Lincoln, NE
+29060	Laconia, NH
+35740	Norfolk, NE
+35820	North Platte, NE
+18100	Columbus, NE
+13260	Bedford, IN
+16980	Chicago-Naperville-Joliet, IL-IN-WI
+45460	Terre Haute, IN
+47340	Wabash, IN
+41540	Salisbury, MD
+29020	Kokomo, IN
+19060	Cumberland, MD-WV
+32820	Memphis, TN-MS-AR
+47980	Watertown, SD
+12380	Austin, MN
+31620	Magnolia, AR
+11140	Americus, GA
+20260	Duluth, MN-WI
+26300	Hot Springs, AR
+26780	Hutchinson, MN
+46820	Vermillion, SD
+35580	New Ulm, MN
+26700	Huron, SD
+46460	Union City, TN-KY
+36980	Owensboro, KY
+32500	Maysville, KY
+39660	Rapid City, SD
+48780	Williston, ND
+25300	Hannibal, MO
+44180	Springfield, MO
+35660	Niles-Benton Harbor, MI
+16020	Cape Girardeau-Jackson, MO-IL
+19820	Detroit-Warren-Livonia, MI
+22800	Fort Madison-Keokuk, IA-MO
+15380	Buffalo-Niagara Falls, NY
+26460	Hudson, NY
+18660	Cortland, NY
+42900	Seneca Falls, NY
+33620	Moberly, MO
+40620	Rolla, MO
+11220	Amsterdam, NY
+22100	Farmington, MO
+48620	Wichita, KS
+13540	Bennington, VT
+10260	Adjuntas, PR
+25020	Guayama, PR
+41980	San Juan-Caguas-Guaynabo, PR
+10380	Aguadilla-Isabela-San Sebastin, PR
+35980	Norwich-New London, CT
+41900	San Germn-Cabo Rojo, PR
+18020	Columbus, IN
+26540	Huntington, IN
+37220	Pahrump, NV
+34620	Muncie, IN
+40940	Safford, AZ
+35860	North Vernon, IN
+37940	Peru, IN
+34220	Moultrie, GA
+12460	Bainbridge, GA
+18460	Cornelia, GA
+38500	Plymouth, IN
+33580	Mitchell, SD
+20020	Dothan, AL
+37500	Paragould, AR
+38220	Pine Bluff, AR
+33660	Mobile, AL
+38180	Pierre, SD
+18340	Corbin, KY
+42620	Searcy, AR
+17300	Clarksville, TN-KY
+23980	Glasgow, KY
+48900	Wilmington, NC
+16740	Charlotte-Gastonia-Concord, NC-SC
+41180	St. Louis, MO-IL
+11700	Asheville, NC
+32980	Merrill, WI
+25860	Hickory-Lenoir-Morganton, NC
+47820	Washington, NC
+38740	Poplar Bluff, MO
+39540	Racine, WI
+48460	West Plains, MO
+40380	Rochester, NY
+45060	Syracuse, NY
+24020	Glens Falls, NY
+31660	Malone, NY
+43460	Sikeston, MO
+33940	Montrose, CO
+48060	Watertown-Fort Drum, NY
+33220	Midland, MI
+30060	Lebanon, MO
+36460	Olean, NY
+41580	Salisbury, NC
+36300	Ogdensburg-Massena, NY
+46540	Utica-Rome, NY
+31300	Lumberton, NC
+22660	Fort Collins-Loveland, CO
+39300	Providence-New Bedford-Fall River, RI-MA
+28180	Kapaa, HI
+20100	Dover, DE
+47900	Washington-Arlington-Alexandria, DC-VA-MD-WV
+30100	Lebanon, NH-VT
+42420	Scottsbluff, NE
+17200	Claremont, NH
+14460	Boston-Cambridge-Quincy, MA-NH
+30300	Lewiston, ID-WA
+15420	Burley, ID
+42580	Seaford, DE
+37980	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD
+38660	Ponce, PR
+35300	New Haven-Milford, CT
+49500	Yauco, PR
+42180	Santa Isabel, PR
+32420	Mayagez, PR
+27580	Jayuya, PR
+21940	Fajardo, PR
+27540	Jasper, IN
+31500	Madison, IN
+40500	Rockland, ME
+39980	Richmond, IN
+15700	Cambridge, MD
+25180	Hagerstown-Martinsburg, MD-WV
+41060	St. Cloud, MN
+31860	Mankato-North Mankato, MN
+20660	Easton, MD
+33460	Minneapolis-St. Paul-Bloomington, MN-WI
+13420	Bemidji, MN
+14180	Blytheville, AR
+14660	Brainerd, MN
+12900	Batesville, AR
+22260	Fergus Falls, MN
+22220	Fayetteville-Springdale-Rogers, AR-MO
+21120	Elk City, OK
+30020	Lawton, OK
+11620	Ardmore, OK
+40080	Richmond-Berea, KY
+30940	London, KY
+28380	Kennett, MO
+17860	Columbia, MO
+27900	Joplin, MO
+43860	Southern Pines-Pinehurst, NC
+48980	Wilson, NC
+35900	North Wilkesboro, NC
+28820	Kinston, NC
+14820	Brevard, NC
+22580	Forest City, NC
+44660	Stillwater, OK
+45980	Troy, AL
+45180	Talladega-Sylacauga, AL
+18980	Cullman, AL
+40660	Rome, GA
+23460	Gadsden, AL
+10700	Albertville, AL
+48580	Whitewater, WI
+24580	Green Bay, WI
+12220	Auburn-Opelika, AL
+26620	Huntsville, AL
+23580	Gainesville, GA
+40860	Rutland, VT
+28020	Kalamazoo-Portage, MI
+37020	Owosso, MI
+47780	Washington, IN
+28540	Ketchikan, AK
+19540	Decatur, IN
+12660	Baraboo, WI
+48740	Willimantic, CT
+44580	Sterling, IL
+45860	Torrington, CT
+16460	Centralia, IL
+21140	Elkhart-Goshen, IN
+28340	Kendallville, IN
+23660	Galesburg, IL
+21740	Evanston, WY
+12140	Auburn, IN
+47180	Vincennes, IN
+33140	Michigan City-La Porte, IN
+43320	Show Low, AZ
+17700	Coffeyville, KS
+29420	Lake Havasu City-Kingman, AZ
+25700	Hays, KS
+11860	Atchison, KS
+30340	Lewiston-Auburn, ME
+10880	Allegan, MI
+12620	Bangor, ME
+22420	Flint, MI
+27100	Jackson, MI
+47660	Warrensburg, MO
+42740	Sedalia, MO
+32340	Maryville, MO
+23340	Fremont, NE
+31700	Manchester-Nashua, NH
+13780	Binghamton, NY
+12860	Batavia, NY
+18180	Concord, NH
+18500	Corning, NY
+15500	Burlington, NC
+32860	Menomonie, WI
+10100	Aberdeen, SD
+22780	Fort Leonard Wood, MO
+48140	Wausau, WI
+33820	Monroe, WI
+13180	Beaver Dam, WI
+48020	Watertown-Fort Atkinson, WI
+30740	Lincolnton, NC
+10620	Albemarle, NC
+32180	Marshall, MO
+10220	Ada, OK
+36580	Oneonta, NY
+43540	Silverthorne, CO
+17820	Colorado Springs, CO
+24540	Greeley, CO
+36780	Oshkosh-Neenah, WI
+28740	Kingston, NY
+15860	Canon City, CO
+39380	Pueblo, CO
+44740	Storm Lake, IA
+14140	Bluefield, WV-VA
+16300	Cedar Rapids, IA
+47940	Waterloo-Cedar Falls, IA
+32380	Mason City, IA
+27180	Jackson, TN
+36820	Oskaloosa, IA
+46100	Tullahoma, TN
+15460	Burlington, IA-IL
+17540	Clinton, IA
+19780	Des Moines-West Des Moines, IA
+14340	Boone, IA
+17420	Cleveland, TN
+32280	Martin, TN
+27740	Johnson City, TN
+44020	Spirit Lake, IA
+34980	Nashville-Davidson--Murfreesboro--Franklin, TN
+43180	Shelbyville, TN
+43980	Spencer, IA
+28940	Knoxville, TN
+35460	Newport, TN
+35500	Newton, IA
+26380	Houma-Bayou Cane-Thibodaux, LA
+26980	Iowa City, IA
+26480	Humboldt, TN
+35380	New Orleans-Metairie-Kenner, LA
+22700	Fort Dodge, IA
+35020	Natchez, MS-LA
+27660	Jennings, LA
+38200	Pierre Part, LA
+18420	Corinth, MS
+32620	McComb, MS
+25060	Gulfport-Biloxi, MS
+46180	Tupelo, MS
+25340	Harriman, TN
+25620	Hattiesburg, MS
+24980	Grenada, MS
+29860	Laurel, MS
+24900	Greenwood, MS
+17260	Clarksdale, MS
+27140	Jackson, MS
+37700	Pascagoula, MS
+32660	McMinnville, TN
+17380	Cleveland, MS
+23020	Fort Walton Beach-Crestview-Destin, FL
+38100	Picayune, MS
+38940	Port St. Lucie, FL
+48100	Wauchula, FL
+45220	Tallahassee, FL
+28580	Key West, FL
+37460	Panama City-Lynn Haven-Panama City Beach, FL
+21580	Espanola, NM
+39460	Punta Gorda, FL
+44260	Starkville, MS
+37820	Pendleton-Hermiston, OR
+27260	Jacksonville, FL
+10740	Albuquerque, NM
+37380	Palm Coast, FL
+23700	Gallup, NM
+15900	Canton, IL
+42680	Sebastian-Vero Beach, FL
+22140	Farmington, NM
+36860	Ottawa-Streator, IL
+16100	Carlsbad-Artesia, NM
+37860	Pensacola-Ferry Pass-Brent, FL
+27300	Jacksonville, IL
+14500	Boulder, CO
+41220	St. Marys, GA
+14600	Bradenton-Sarasota-Venice, FL
+46060	Tucson, AZ
+31980	Marion, IN
+33100	Miami-Fort Lauderdale-Pompano Beach, FL
+22540	Fond du Lac, WI
+29820	Las Vegas-Paradise, NV
+16660	Charleston-Mattoon, IL
+24620	Greeneville, TN
+34100	Morristown, TN
+32260	Marshalltown, IA
+29980	Lawrenceburg, TN
+42940	Sevierville, TN
+29220	La Follette, TN
+37540	Paris, TN
+18260	Cookeville, TN
+34700	Muscatine, IA
+11940	Athens, TN
+18900	Crossville, TN
+20540	Dyersburg, TN
+15140	Brownsville, TN
+18940	Crowley, LA
+35060	Natchitoches, LA
+37800	Pella, IA
+36900	Ottumwa, IA
+19760	DeRidder, LA
+12940	Baton Rouge, LA
+40820	Ruston, LA
+30280	Lewisburg, TN
+17940	Columbia, TN
+36660	Opelousas-Eunice, LA
+33380	Minden, LA
+10020	Abbeville, LA
+46980	Vicksburg, MS
+15020	Brookhaven, MS
+17580	Clovis, NM
+18060	Columbus, MS
+24740	Greenville, MS
+31060	Los Alamos, NM
+37060	Oxford, MS
+45340	Taos, NM
+24380	Grants, NM
+45300	Tampa-St. Petersburg-Clearwater, FL
+38900	Portland-Vancouver-Beaverton, OR-WA
+26220	Hood River, OR
+42140	Santa Fe, NM
+15060	Brookings, OR
+19700	Deming, NM
+37340	Palm Bay-Melbourne-Titusville, FL
+16940	Cheyenne, WY
+19340	Davenport-Moline-Rock Island, IA-IL
+23540	Gainesville, FL
+16580	Champaign-Urbana, IL
+39140	Prescott, AZ
+49540	Yazoo City, MS
+27060	Ithaca, NY
+10900	Allentown-Bethlehem-Easton, PA-NJ
+28100	Kankakee-Bradley, IL
+37260	Palatka, FL
+19500	Decatur, IL
+10460	Alamogordo, NM
+44300	State College, PA
+17500	Clewiston, FL
+31380	Macomb, IL
+24420	Grants Pass, OR
+19940	Dixon, IL
+34500	Mount Vernon, IL
+40540	Rock Springs, WY
+42700	Sebring, FL
+23300	Freeport, IL
+16540	Chambersburg, PA
+16220	Casper, WY
+42780	Selinsgrove, PA
+36380	Okeechobee, FL
+42540	Scranton--Wilkes-Barre, PA
+44100	Springfield, IL
+40300	Rochelle, IL
+25380	Harrisburg, IL
+35260	New Castle, PA
+16620	Charleston, WV
+39220	Price, UT
+41100	St. George, UT
+13500	Bennettsville, SC
+19900	Dillon, SC
+21660	Eugene-Springfield, OR
+44940	Sumter, SC
+17220	Clarksburg, WV
+16900	Chester, SC
+22500	Florence, SC
+34940	Naples-Marco Island, FL
+39340	Provo-Orem, UT
+42860	Seneca, SC
+43740	Somerset, PA
+35140	Newberry, SC
+25940	Hilton Head Island-Beaufort, SC
+14940	Brigham City, UT
+30820	Lock Haven, PA
+25720	Heber, UT
+49660	Youngstown-Warren-Boardman, OH-PA
+48260	Weirton-Steubenville, WV-OH
+36060	Oak Hill, WV
+21500	Erie, PA
+36260	Ogden-Clearfield, UT
+19660	Deltona-Daytona Beach-Ormond Beach, FL
+17900	Columbia, SC
+30140	Lebanon, PA
+23500	Gaffney, SC
+11020	Altoona, PA
+36140	Ocean City, NJ
+32220	Marshall, TX
+39700	Raymondville, TX
+11980	Athens, TX
+38820	Port Angeles, WA
+37780	Pecos, TX
+30220	Levelland, TX
+14420	Borger, TX
+18620	Corsicana, TX
+19620	Del Rio, TX
+23240	Fredericksburg, TX
+10140	Aberdeen, WA
+42660	Seattle-Tacoma-Bellevue, WA
+48300	Wenatchee-East Wenatchee, WA
+13380	Bellingham, WA
+34860	Nacogdoches, TX
+46620	Uvalde, TX
+16500	Centralia, WA
+33260	Midland, TX
+28420	Kennewick-Pasco-Richland, WA
+46340	Tyler, TX
+46900	Vernon, TX
+36020	Oak Harbor, WA
+29500	Lamesa, TX
+14780	Brenham, TX
+31020	Longview, WA
+20300	Dumas, TX
+47380	Waco, TX
+20900	El Campo, TX
+29700	Laredo, TX
+34180	Moses Lake, WA
+26660	Huntsville, TX
+39420	Pullman, WA
+45020	Sweetwater, TX
+14300	Bonham, TX
+43220	Shelton, WA
+28500	Kerrville, TX
+44500	Stephenville, TX
+47460	Walla Walla, WA
+36500	Olympia, WA
+13700	Big Spring, TX
+34580	Mount Vernon-Anacortes, WA
+10780	Alexandria, LA
+29340	Lake Charles, LA
+25220	Hammond, LA
+12820	Bastrop, LA
+20220	Dubuque, IA
+35340	New Iberia, LA
+43340	Shreveport-Bossier City, LA
+45260	Tallulah, LA
+14220	Bogalusa, LA
+29180	Lafayette, LA
+11180	Ames, IA
+34020	Morgan City, LA
+48500	West Point, MS
+33740	Monroe, LA
+32940	Meridian, MS
+22860	Fort Polk South, LA
+26940	Indianola, MS
+40740	Roswell, NM
+18700	Corvallis, OR
+18300	Coos Bay, OR
+43500	Silver City, NM
+32780	Medford, OR
+11820	Astoria, OR
+39260	Prineville, OR
+29740	Las Cruces, NM
+41420	Salem, OR
+29380	Lake City, FL
+36740	Orlando-Kissimmee, FL
+29660	Laramie, WY
+40420	Rockford, IL
+13460	Bend, OR
+45380	Taylorville, IL
+23940	Gillette, WY
+40180	Riverton, WY
+29260	La Grande, OR
+26140	Homosassa Springs, FL
+11580	Arcadia, FL
+37900	Peoria, IL
+24300	Grand Junction, CO
+40760	Ruidoso, NM
+39740	Reading, PA
+45540	The Villages, FL
+45520	The Dalles, OR
+19180	Danville, IL
+38300	Pittsburgh, PA
+28900	Klamath Falls, OR
+41260	St. Marys, PA
+10540	Albany-Lebanon, OR
+12100	Atlantic City-Hammonton, NJ
+26020	Hobbs, NM
+26860	Indiana, PA
+23900	Gettysburg, PA
+30660	Lincoln, IL
+20820	Effingham, IL
+42380	Sayre, PA
+15980	Cape Coral-Fort Myers, FL
+38780	Portales, NM
+16060	Carbondale, IL
+32740	Meadville, PA
+14100	Bloomsburg-Berwick, PA
+25420	Harrisburg-Carlisle, PA
+14620	Bradford, PA
+21900	Fairmont, WV
+47220	Vineland-Millville-Bridgeton, NJ
+38580	Point Pleasant, WV-OH
+24860	Greenville-Mauldin-Easley, SC
+38700	Pontiac, IL
+34060	Morgantown, WV
+41620	Salt Lake City, UT
+44980	Sunbury, PA
+34820	Myrtle Beach-North Myrtle Beach-Conway, SC
+11340	Anderson, SC
+13220	Beckley, WV
+20180	DuBois, PA
+37620	Parkersburg-Marietta-Vienna, WV-OH
+29460	Lakeland-Winter Haven, FL
+45940	Trenton-Ewing, NJ
+32060	Marion-Herrin, IL
+16700	Charleston-North Charleston-Summerville, SC
+46860	Vernal, UT
+29540	Lancaster, PA
+26500	Huntingdon, PA
+49620	York-Hanover, PA
+32580	McAllen-Edinburg-Mission, TX
+21260	Ellensburg, WA
+49420	Yakima, WA
+14740	Bremerton-Silverdale, WA
+41740	San Diego-Carlsbad-San Marcos, CA
+44060	Spokane, WA
+49700	Yuba City, CA
+24940	Greenwood, SC
+20940	El Centro, CA
+38020	Phoenix Lake-Cedar Ridge, CA
+23860	Georgetown, SC
+46020	Truckee-Grass Valley, CA
+11780	Ashtabula, OH
+17020	Chico, CA
+30380	Lewistown, PA
+34900	Napa, CA
+20700	East Stroudsburg, PA
+17340	Clearlake, CA
+15940	Canton-Massillon, OH
+39020	Portsmouth, OH
+47500	Walterboro, SC
+30620	Lima, OH
+49300	Wooster, OH
+18860	Crescent City, CA
+41860	San Francisco-Oakland-Fremont, CA
+48540	Wheeling, WV-OH
+11740	Ashland, OH
+39060	Pottsville, PA
+18740	Coshocton, OH
+36700	Orangeburg, SC
+48700	Williamsport, PA
+29580	Lancaster, SC
+30260	Lewisburg, PA
+23420	Fresno, CA
+46500	Urbana, OH
+47540	Wapakoneta, OH
+15340	Bucyrus, OH
+36340	Oil City, PA
+27780	Johnstown, PA
+42100	Santa Cruz-Watsonville, CA
+47620	Warren, PA
+46420	Union, SC
+45000	Susanville, CA
+42220	Santa Rosa-Petaluma, CA
+31100	Los Angeles-Long Beach-Santa Ana, CA
+40900	Sacramento--Arden-Arcade--Roseville, CA
+18140	Columbus, OH
+45780	Toledo, OH
+31460	Madera-Chowchilla, CA
+46780	Van Wert, OH
+13860	Bishop, CA
+13340	Bellefontaine, OH
+21700	Eureka-Arcata-Fortuna, CA
+32020	Marion, OH
+46700	Vallejo-Fairfield, CA
+24820	Greenville, OH
+22300	Findlay, OH
+42060	Santa Barbara-Santa Maria-Goleta, CA
+39820	Redding, CA
+44700	Stockton, CA
+39780	Red Bluff, CA
+41780	Sandusky, OH
+48940	Wilmington, OH
+44220	Springfield, OH
+15740	Cambridge, OH
+46380	Ukiah, CA
+17460	Cleveland-Elyria-Mentor, OH
+12540	Bakersfield, CA
+35940	Norwalk, OH
+41500	Salinas, CA
+31900	Mansfield, OH
+41940	San Jose-Sunnyvale-Santa Clara, CA
+34540	Mount Vernon, OH
+25260	Hanford-Corcoran, CA
+19580	Defiance, OH
+47920	Washington Court House, OH
+11900	Athens, OH
+20620	East Liverpool-Salem, OH
+19380	Dayton, OH
+48660	Wichita Falls, TX
+37100	Oxnard-Thousand Oaks-Ventura, CA
+40140	Riverside-San Bernardino-Ontario, CA
+43900	Spartanburg, SC
+35420	New Philadelphia-Dover, OH
+13300	Beeville, TX
+32900	Merced, CA
+45660	Tiffin, OH
+37300	Palestine, TX
+41700	San Antonio, TX
+40700	Roseburg, OR
+12420	Austin-Round Rock, TX
+33700	Modesto, CA
+18580	Corpus Christi, TX
+14060	Bloomington-Normal, IL
+43380	Sidney, OH
+42020	San Luis Obispo-Paso Robles, CA
+11100	Amarillo, TX
+26420	Houston-Sugar Land-Baytown, TX
+31260	Lufkin, TX
+47300	Visalia-Porterville, CA
+11380	Andrews, TX
+36100	Ocala, FL
+16260	Cedar City, UT
+49780	Zanesville, OH
+16380	Celina, OH
+10420	Akron, OH
+15220	Brownwood, TX
+17780	College Station-Bryan, TX
+28780	Kingsville, TX
+38380	Plainview, TX
+30980	Longview, TX
+27380	Jacksonville, TX
+47020	Victoria, TX
+23380	Fremont, OH
+37420	Pampa, TX
+41660	San Angelo, TX
+19100	Dallas-Fort Worth-Arlington, TX
+44860	Sulphur Springs, TX
+34420	Mount Pleasant, TX
+17060	Chillicothe, OH
+10860	Alice, TX
+43660	Snyder, TX
+43300	Sherman-Denison, TX
+15180	Brownsville-Harlingen, TX
+13060	Bay City, TX
+13140	Beaumont-Port Arthur, TX
+20580	Eagle Pass, TX
+33420	Mineral Wells, TX
+40100	Rio Grande City-Roma, TX
+37580	Paris, TX
+21340	El Paso, TX
+28660	Killeen-Temple-Fort Hood, TX
+23620	Gainesville, TX
+24180	Granbury, TX
+36220	Odessa, TX
+10180	Abilene, TX
+31180	Lubbock, TX
+25820	Hereford, TX
+29780	Las Vegas, NM
