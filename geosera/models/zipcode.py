@@ -6,14 +6,23 @@ class ZipCode(models.Model):
 	Census Bureau. Note that this is not entirely the same as the Zip Codes
 	that the USPS uses. """
 
+	#5-digit zip code tabluation area
 	zcta5ce10 = models.CharField(max_length=5)
+	#5-digit zip code tabulation area code
 	geoid10 = models.CharField(max_length=5)
+	#FIPS class code (55)
 	classfp10 = models.CharField(max_length=2)
+	#MAF/TIGER feature class code
 	mtfcc10 = models.CharField(max_length=5)
+	#Functional status
 	funcstat10 = models.CharField(max_length=1)
+	#Land area in square meters
 	aland10 = models.FloatField()
+	#Water area in square meters
 	awater10 = models.FloatField()
+	#Latitude of the internal point
 	intptlat10 = models.CharField(max_length=11)
+	#Longitude of the internal point
 	intptlon10 = models.CharField(max_length=12)
 	geom = models.MultiPolygonField(srid=4326)
 	objects = models.GeoManager()
