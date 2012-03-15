@@ -1,3 +1,3 @@
-LOAD DATA LOCAL INFILE '/opt/code/reverse-geocoder/data_processing/sql/census-counties.txt'
+LOAD DATA LOCAL INFILE '/Users/salathegroup/code/reverse-geocoder/data_processing/sql/census-zipcodes.txt'
 INTO TABLE zctas 
 (zipcode)
