@@ -5,6 +5,9 @@ import simplejson
 import os
 from mkondo import dataops
 import settings
+import logging
+import logging.handlers
+
 
 class TweetsLoader():
 	def __init__(self,conn, flags):
@@ -29,7 +32,7 @@ class TweetsLoader():
 	def update_not_geosera(self, data):
 		flag = self.flags['GEOSERA_FAILED']
 		sql = "UPDATE tweets SET geocoder_flag='%s' WHERE tweet_id = %s" % (flag, data['tweet_id'])
-		print sql
+		run_sql_update(sql)
 
 	def was_geocoded(self,data):
 		""" Return true if any of the levels have been geocoded """
@@ -60,8 +63,8 @@ class TweetsLoader():
 			sql_prefix += m
 
 		sql = sql_prefix + " WHERE tweet_id = %s" % data['tweet_id']
-		print sql
 		self.run_sql_update(sql)
+		print data['tweet_id']
 
 	def process_geocoder_data(self, data):
 		if not self.was_geocoded(data):
