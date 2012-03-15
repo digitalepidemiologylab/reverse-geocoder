@@ -1,0 +1,52 @@
+Wyoming	56	WY
+Pennsylvania	42	PA
+Ohio	39	OH
+New Mexico	35	NM
+Maryland	24	MD
+Rhode Island	44	RI
+Oregon	41	OR
+Puerto Rico	72	PR
+Wisconsin	55	WI
+North Dakota	38	ND
+Nevada	32	NV
+Georgia	13	GA
+New York	36	NY
+Arkansas	05	AR
+Kansas	20	KS
+Nebraska	31	NE
+Utah	49	UT
+Alaska	02	AK
+Mississippi	28	MS
+Oklahoma	40	OK
+West Virginia	54	WV
+Michigan	26	MI
+Colorado	08	CO
+New Jersey	34	NJ
+Delaware	10	DE
+Montana	30	MT
+Washington	53	WA
+Connecticut	09	CT
+California	06	CA
+Kentucky	21	KY
+Massachusetts	25	MA
+Florida	12	FL
+Idaho	16	ID
+Missouri	29	MO
+Hawaii	15	HI
+Alabama	01	AL
+South Carolina	45	SC
+New Hampshire	33	NH
+South Dakota	46	SD
+Illinois	17	IL
+Tennessee	47	TN
+Indiana	18	IN
+Iowa	19	IA
+Arizona	04	AZ
+Minnesota	27	MN
+Louisiana	22	LA
+District of Columbia	11	DC
+Virginia	51	VA
+Texas	48	TX
+Vermont	50	VT
+Maine	23	ME
+North Carolina	37	NC
