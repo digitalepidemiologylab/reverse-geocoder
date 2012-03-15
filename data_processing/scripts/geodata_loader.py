@@ -36,6 +36,7 @@ class TweetsLoader():
 		return data['metro'] or data['county'] or data['state'] or data['place'] or data['zcta']
 
 	def build_update_sql(self, data):
+		""" Update a tweet with it's reverse geocoded information. Build and execute the SQL query. """
 		sql_prefix = "UPDATE tweets SET geocoder_flag = '%s' " % self.flags['GEOSERA']
 	
 		if 'county_fips' in data and data['county_fips']:
@@ -58,13 +59,15 @@ class TweetsLoader():
 			m = ", metro_code=%s" % data['metro_code']
 			sql_prefix += m
 
-		sql += "WHERE tweet_id = %s" % data['tweet_id']
+		sql = sql_prefix + " WHERE tweet_id = %s" % data['tweet_id']
+		print sql
+		self.run_sql_update(sql)
 
 	def process_geocoder_data(self, data):
 		if not self.was_geocoded(data):
 			self.update_not_geosera(data)
 		else:
-			sql = build_update_sql(data)
+			sql = self.build_update_sql(data)
 
 if __name__ == '__main__':
 
@@ -76,14 +79,11 @@ if __name__ == '__main__':
 	updater = TweetsLoader(conn, settings.GEOCODER_FLAGS)
 	directories,data_files = dataops.get_all_directory_file_list(settings.GEO_DATA_SOURCE)
 
-	#insert data into database
-
 	for filename in data_files:
 		filepath = os.path.join(settings.GEO_DATA_SOURCE, filename)
+		print filepath
 		if 'data' in filename:
 			data_file = open(filepath, 'r')
 			for line in data_file:
 				data = simplejson.loads(line.split('|')[1])
 				updater.process_geocoder_data(data)
-				
-	#geocoded flag
