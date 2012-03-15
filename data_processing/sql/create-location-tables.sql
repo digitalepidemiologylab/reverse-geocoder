@@ -28,7 +28,7 @@ DROP TABLE IF EXISTS places;
 CREATE TABLE places (
 	name text NOT NULL,
 	area_type_code varchar(3), 
-	fips_code int(5) NOT NULL,
+	fips_code int(5) ZEROFILL NOT NULL,
 	PRIMARY KEY(fips_code)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
