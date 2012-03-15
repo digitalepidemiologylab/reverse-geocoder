@@ -12,7 +12,15 @@ class TweetsLoader():
 		self.flags = flags
 		self.state_fips_cache = None
 
+	def run_sql_update(self, sql):
+		""" Run an SQL insert or update statement. """
+		cursor = self.conn.cursor()
+		cursor.execute(sql)
+		self.conn.commit()
+		cursor.close()
+
 	def run_sql(self, sql):
+		""" Run an SQL select statement and return all the rows. """
 		cursor = self.conn.cursor()
 		cursor.execute(sql)
 		rows = list(cursor.fetchall())
@@ -29,26 +37,44 @@ class TweetsLoader():
 		return data['metro'] and data['county'] and data['state'] and data['place'] and data['zcta']
 
 	def populate_state_fips(self):
+		""" To prevent us from extra queries on the database, we cache the state fips codes that are 
+		already in the database. """
+
 		sql = "SELECT fips_code FROM states";
 
 		fips_codes = self.run_sql(sql)
 		for code in fips_codes:
 			self.state_fips_cache[code] = True
-		raise Exception('Not implemented')
 
 	def add_state(self, fips, two_letter_abbr):
+		""" If a state is not already in our database, add it. Use the state fips codes cache to 
+		prevent extra database queries. """
+
 		if self.state_fips is None:
 			self.populate_state_fips()
 		
 		if fips not in self.state_fips_cache:
 			sql = "INSERT INTO states fips_code = %s, two_letter_code = %s" % (fips, two_letter_abbr)
+			self.run_sql_update(sql)
+			#Add the state's FIPS code to the cache.
 			state_fips_cache[fips] = True
 
 	def add_county(self, fips, county_name, state_two_letter):
-		pass
+		""" Add a county if it doesn't already exist. """
+		sql = "SELECT fips_code FROM counties WHERE fips_code = %s" % fips
+		result = run_sql(sql)
+		if len(result) < 1:
+			sql = "INSERT INTO counties fips_code=%s, name=%s, state_two_letter=%s" % (fips_code, 
+								county_name, state_two_letter)
+			self.run_sql_update(sql)
 
 	def add_zcta(self, zipcode, state_two_letter):
-		pass
+		""" Add a zipcode tabulation area if it does not already exist. """
+		sql = "SELECT zipcode from zctas WHERE zipcode = %s" % zipcode
+		result = run_sql(sql)
+		if len(result) < 1:
+			sql = "INSERT into zctas zipcode=%s, state_two_letter=%s " % (zipcode, state_two_letter)
+			self.run_sql_update(sql)
 
 	def build_update_sql(self, data):
 		sql_prefix = "UPDATE tweets SET geocoder_flag = '%s' " % self.flags['GEOSERA']
