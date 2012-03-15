@@ -17,7 +17,7 @@ CREATE INDEX state_two ON states (two_letter_code);
 
 CREATE TABLE counties (
 	name text NOT NULL,
-	fips_code int(25) NOT NULL,
+	fips_code int(5) ZEROFILL NOT NULL,
 	population int(15),
 	state_fips int(2) ZEROFILL,
 	PRIMARY KEY (fips_code)
@@ -28,7 +28,7 @@ DROP TABLE IF EXISTS places;
 CREATE TABLE places (
 	name text NOT NULL,
 	area_type_code varchar(3), 
-	fips_code int(25) NOT NULL,
+	fips_code int(5) NOT NULL,
 	PRIMARY KEY(fips_code)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
