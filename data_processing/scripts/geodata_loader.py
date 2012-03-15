@@ -33,7 +33,7 @@ class TweetsLoader():
 	def update_not_geosera(self, data):
 		flag = self.flags['GEOSERA_FAILED']
 		sql = "UPDATE tweets SET geocoder_flag='%s' WHERE tweet_id = %s" % (flag, data['tweet_id'])
-		run_sql_update(sql)
+		self.run_sql_update(sql)
 
 	def was_geocoded(self,data):
 		""" Return true if any of the levels have been geocoded """
