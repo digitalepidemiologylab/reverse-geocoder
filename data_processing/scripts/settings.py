@@ -1,6 +1,6 @@
 
 
-GEO_DATA_SOURCE = '/opt/code/reverse-geocoder/data_processing/data/location-data/'
+GEO_DATA_SOURCE = '/opt/code/reverse-geocoder/data_processing/public_data/location-data/'
 
 #This is where the location data files end up when they have been processed.
 GEO_DATA_SINK = ''
