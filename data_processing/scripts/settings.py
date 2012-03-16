@@ -34,6 +34,7 @@ DATABASES = {
 }
 
 COUNTY_POP_FILE = '/opt/code/reverse-geocoder/data_processing/public_data/CenPop2010_Mean_CO.txt'
+STATE_POP_FILE = '/opt/code/reverse-geocoder/data_processing/public_data/extracted_state_populations.txt'
 
 try:
 	from local_settings import *

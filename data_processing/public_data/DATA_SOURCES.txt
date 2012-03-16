@@ -1,2 +1,5 @@
 #Population per county for the United States
 http://www.census.gov/geo/www/2010census/centerpop2010/county/CenPop2010_Mean_CO.txt
+
+#Population per state
+http://www.census.gov/popest/data/national/totals/2011/files/NST_EST2011_ALLDATA.csv

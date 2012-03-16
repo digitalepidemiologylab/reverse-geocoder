@@ -1,0 +1,53 @@
+#STATE|NAME|CENSUS2010POP
+01|Alabama|4779736
+02|Alaska|710231
+04|Arizona|6392017
+05|Arkansas|2915918
+06|California|37253956
+08|Colorado|5029196
+09|Connecticut|3574097
+10|Delaware|897934
+11|District of Columbia|601723
+12|Florida|18801310
+13|Georgia|9687653
+15|Hawaii|1360301
+16|Idaho|1567582
+17|Illinois|12830632
+18|Indiana|6483802
+19|Iowa|3046355
+20|Kansas|2853118
+21|Kentucky|4339367
+22|Louisiana|4533372
+23|Maine|1328361
+24|Maryland|5773552
+25|Massachusetts|6547629
+26|Michigan|9883640
+27|Minnesota|5303925
+28|Mississippi|2967297
+29|Missouri|5988927
+30|Montana|989415
+31|Nebraska|1826341
+32|Nevada|2700551
+33|New Hampshire|1316470
+34|New Jersey|8791894
+35|New Mexico|2059179
+36|New York|19378102
+37|North Carolina|9535483
+38|North Dakota|672591
+39|Ohio|11536504
+40|Oklahoma|3751351
+41|Oregon|3831074
+42|Pennsylvania|12702379
+44|Rhode Island|1052567
+45|South Carolina|4625364
+46|South Dakota|814180
+47|Tennessee|6346105
+48|Texas|25145561
+49|Utah|2763885
+50|Vermont|625741
+51|Virginia|8001024
+53|Washington|6724540
+54|West Virginia|1852994
+55|Wisconsin|5686986
+56|Wyoming|563626
+72|Puerto Rico Commonwealth|3725789
