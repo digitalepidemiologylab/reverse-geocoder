@@ -33,6 +33,8 @@ DATABASES = {
 	}
 }
 
+COUNTY_POP_FILE = '/opt/code/reverse-geocoder/data_processing/data/CenPop2010_Mean_CO.txt'
+
 try:
 	from local_settings import *
 except ImportError:
